@@ -28,8 +28,8 @@ const product = {
 // console.log(stock);
 // console.log(rating);
 
-
-const transaction = (type, { label, stock }) => {
+// transaction with default params set
+const transaction = (type, { label = 'No label', stock = 0} = {}) => {
   console.log(type, label, stock);
 }
 
