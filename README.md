@@ -1,7 +1,5 @@
-This is a command line note taking application. 
+# weather-app
+App to track weather by location.
 
-Commands:
-  - app.js add     Add a note
-  - app.js remove  Remove a note
-  - app.js list    List all notes
-  - app.js read    Read a specified note
+- Pulls weather data from the [Weatherstack API](https://weatherstack.com/documentation)
+- Utilizes geo-coding with [Mapbox API](https://docs.mapbox.com/)

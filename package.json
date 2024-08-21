@@ -1,16 +1,23 @@
 {
-  "name": "notes-app",
+  "name": "weather-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "App to track weather.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjreo/weather-app.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjreo/weather-app/issues"
+  },
+  "homepage": "https://github.com/vjreo/weather-app#readme",
   "dependencies": {
-    "prompt-sync": "^4.2.0",
-    "validator": "^13.11.0",
-    "yargs": "^17.7.2"
+    "postman-request": "^2.88.1-postman.33"
   }
 }
